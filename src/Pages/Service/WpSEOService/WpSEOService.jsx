@@ -1,4 +1,5 @@
 import { FaChartLine, FaExternalLinkAlt, FaRocket } from "react-icons/fa";
+import ContactForm from "../../../Components/Navbar/ContactForm";
 
 const WpSEOService = () => {
   return (
@@ -7,10 +8,10 @@ const WpSEOService = () => {
 
       <div>
         <div className="py-52 pb-32 bg-[#054ada]">
-          <h1 className="text-center header">WordPress SEO Service</h1>
+          <h1 className="text-center sm_d_h1 px-3 md:header">WordPress SEO Service</h1>
         </div>
         <img
-          className="w-full"
+          className="w-full h-[100px]"
           src="https://i.ibb.co/tBKp0JK/Screenshot-1.png"
           alt="Screenshot-1"
           border="0"
@@ -18,9 +19,9 @@ const WpSEOService = () => {
       </div>
 
       {/* ************************* For Your Business ********************* */}
-      <div className="max-w-[1200px] mx-auto">
-        <h2 className="medium_header">Peace Of Mind For Your Business</h2>
-        <h4 className="sm_pre_text text-center px-20">
+      <div className="max-w-[1200px] mx-auto px-3">
+        <h2 className="md:sm_d_h2 my-10 md:medium_header sm_d_h2 mt-20 mb-8">Peace Of Mind For Your Business</h2>
+        <h4 className="sm_pre_text text-center px-3">
           Do you feel like your WordPress website is not performing as well as
           it should on the internet? Do people who visit your website leave
           without purchasing anything or signing up for your newsletter? Our
@@ -49,13 +50,13 @@ const WpSEOService = () => {
       </div>
       {/* ************************* I Care About It? ********************* */}
 
-      <div className="bg-[#e2ecf7] mt-20 ">
+      <div className="bg-[#e2ecf7] mt-20 px-3">
         <div className="max-w-[1200px] py-20 mx-auto ">
-          <h2 className="medium_header mb-4 text-center">
+          <h2 className="sm_d_h2 md:sm_d_h2 my-10 md:medium_header mb-4 text-center">
             What Is SEO, And Why Should I Care About It?
           </h2>
-          <div className="flex mt-20  gap-8 ">
-            <div className="w-1/2">
+          <div className="grid md:grid-cols-2 mt-20  gap-8 ">
+            <div className="">
               <p className="sm_pre_text mb-4 -mt-8 text-justify">
                 SEO stands for search engine optimization. With our process,
                 your WordPress website will get a high ranking on Google, Bing,
@@ -93,7 +94,7 @@ const WpSEOService = () => {
             </div>
 
             {/* right side */}
-            <div className=" rounded w-1/2">
+            <div className=" rounded">
               <img
                 className="-mt-6 cover mx-auto"
                 src="https://redoyislam.com/wp-content/uploads/2022/01/wordpress-seo-services-1.png"
@@ -105,25 +106,25 @@ const WpSEOService = () => {
       </div>
       
       <div className=" mt-20 ">
-        <div className="max-w-[1200px] pt-20 mx-auto ">
+        <div className="max-w-[1200px] lg:pt-20 mx-auto px-3">
           {/* ************************* Best Option For Your Business ********************* */}
 
           <div>
-            <h2 className="medium_header text-center mx-auto px-32">
+            <h2 className="md:sm_d_h2 my-10 md:medium_header sm_d_h2 text-center mx-auto lg:px-32">
               Why WordPress SEO Service Is The Best Option For Your Business
             </h2>
-            <div className="flex mt-20 gap-8 items-center">
+            <div className="grid md:grid-cols-2 mt-10 md:mt-0 lg:mt-20 gap-8 ">
               {/* right side */}
-              <div className=" rounded w-1/2">
+              <div className=" rounded">
                 <img
-                  className="-mt-6 cover mx-auto w-[80%]"
+                  className="-mt-6 cover mx-auto lg:w-[80%]"
                   src="https://redoyislam.com/wp-content/uploads/2022/01/wordpress-seo-service-1024x1024.webp"
                   alt=""
                 />
               </div>
 
-              <div className="w-1/2">
-                <p className="sm_pre_text mb-4 -mt-8 text-justify">
+              <div className="">
+                <p className="sm_pre_text mb-4 mt-8 text-justify">
                   WordPress SEO service is the best option for your business
                   because it is an all-inclusive package that provides various
                   services to help improve your website. Services include
@@ -158,7 +159,7 @@ const WpSEOService = () => {
           {/* ************************* Care Of Your Website ********************* */}
 
           <div>
-            <h4 className="my_h4 ">
+            <h4 className="sm_d_h2 text-center mt-20">
               The Benefits Of Choosing A Professional SEO Company To Take Care
               Of Your Website
             </h4>
@@ -185,8 +186,8 @@ const WpSEOService = () => {
           {/* ************************* Some Benefits Include ********************* */}
 
           <div>
-            <h4 className="my_h4 text-center">Some Benefits Include:</h4>
-            <ul className="pl-20 list-disc">
+            <h4 className="sm_d_h2 mt-10 text-center">Some Benefits Include:</h4>
+            <ul className="pl-12 list-disc">
               <li className="sm_pre_text mt-8 my-4">
                 Better rankings on SERPs (search engines) leads more potential
                 customers to find their way back to our websites
@@ -205,7 +206,7 @@ const WpSEOService = () => {
           {/* ************************* HOW WE WORK ********************* */}
 
           <div>
-            <h2 className="medium_header text-center mx-auto px-32">
+            <h2 className="sm_d_h2 md:sm_d_h2 my-10 md:medium_header text-center mx-auto mt-10 lg:px-32">
               HOW WE WORK
             </h2>
             <p className="sm_pre_text text-center mt-8 my-4">
@@ -215,9 +216,9 @@ const WpSEOService = () => {
           </div>
 
           <div>
-            <div className="flex items-center my-5 bg-blue-600 p-4 rounded-2xl text-white hover:transform hover:scale-120 hover:animate-pulse">
+            <div className="md:flex text-center  items-center my-5 bg-blue-600 p-4 rounded-2xl text-white hover:transform hover:scale-120 hover:animate-pulse">
               <div className="icon">
-                <FaChartLine className="text-6xl mx-3" />
+                <FaChartLine className="text-6xl text-center mx-auto lg:mx-3" />
               </div>
               <div className="ml-4">
                 <h4 className="my_h4">Audit and analysis</h4>
@@ -228,9 +229,9 @@ const WpSEOService = () => {
                 </p>
               </div>
             </div>
-            <div className="flex items-center my-5 bg-blue-600 p-4 rounded-2xl text-white hover:transform hover:scale-120 hover:animate-pulse">
+            <div className="md:flex text-center items-center my-5 bg-blue-600 p-4 rounded-2xl text-white hover:transform hover:scale-120 hover:animate-pulse">
               <div className="icon">
-                <FaChartLine className="text-6xl mx-3" />
+                <FaChartLine className="text-6xl text-center mx-auto lg:mx-3" />
               </div>
               <div className="ml-4">
                 <h4 className="my_h4">Audit and analysis</h4>
@@ -241,9 +242,9 @@ const WpSEOService = () => {
                 </p>
               </div>
             </div>
-            <div className="flex items-center my-5 bg-blue-600 p-4 rounded-2xl text-white hover:transform hover:scale-120 hover:animate-pulse">
+            <div className="md:flex text-center  items-center my-5 bg-blue-600 p-4 rounded-2xl text-white hover:transform hover:scale-120 hover:animate-pulse">
               <div className="icon">
-                <FaChartLine className="text-6xl mx-3" />
+                <FaChartLine className="text-6xl text-center mx-auto lg:mx-3" />
               </div>
               <div className="ml-4">
                 <h4 className="my_h4">Audit and analysis</h4>
@@ -254,11 +255,12 @@ const WpSEOService = () => {
                 </p>
               </div>
             </div>
+            
           </div>
           {/* ************************* One Should I Choose? ********************* */}
 
           <>
-            <h4 className="my_h2 mt-20 ">
+            <h4 className="sm_d_h2 lg:my_h2 mt-20 ">
               WordPress.Org Or WordPress.Com? Which One Should I Choose?
             </h4>
 
@@ -281,9 +283,9 @@ const WpSEOService = () => {
           {/* ************************* For SEO Than HTML ********************* */}
 
           <>
-            <div className="flex mt-20 gap-8 items-center my-14">
+            <div className="grid md:grid-cols-2 lg:grid-cols-2 mt-80 gap-8 items-center my-14">
               {/* right side */}
-              <div className=" rounded w-1/2">
+              <div className="rounded">
                 <img
                   className="-mt-6 cover mx-auto"
                   src="https://redoyislam.com/wp-content/uploads/2022/01/webdesign-1024x682.webp"
@@ -291,8 +293,8 @@ const WpSEOService = () => {
                 />
               </div>
 
-              <div className="w-1/2">
-                <h2 className="medium_header text-center mx-auto">
+              <div className="">
+                <h2 className="sm_d_h2 my-10 md:medium_header text-center mx-auto">
                   Is WordPress Better For SEO Than HTML
                 </h2>
                 <p className="sm_pre_text my-4 text-justify">
@@ -329,9 +331,9 @@ const WpSEOService = () => {
           {/* ************************* SEO Tool For WordPress? ********************* */}
 
           <>
-            <div className="flex mt-20 gap-8 items-center my-14">
-              <div className="w-1/2">
-                <h2 className="medium_header text-center mx-auto">
+            <div className="grid md:grid-cols-2 mt-20  gap-8 items-center my-14">
+              <div className="">
+                <h2 className="sm_d_h2 my-10 md:medium_header text-center mx-auto">
                   Is WordPress Better For SEO Than HTML
                 </h2>
                 <p className="sm_pre_text my-4 text-justify">
@@ -365,9 +367,9 @@ const WpSEOService = () => {
               </div>
 
               {/* right side */}
-              <div className=" rounded w-1/2">
+              <div className=" rounded ">
                 <img
-                  className="-mt-6 cover mx-auto w-[70%]"
+                  className="-mt-6 cover mx-auto lg:w-[70%]"
                   src="https://redoyislam.com/wp-content/uploads/2022/01/seo-tools.webp"
                   alt=""
                 />
@@ -378,39 +380,11 @@ const WpSEOService = () => {
       </div>
 
       {/* ************************* Get In Touch ********************* */}
-      <div className="py-20 mt-20 bg-[#e2ecf7] ">
-        <div className="mx-auto w-full md:w-1/2">
-          <h2 className="medium_header text-center mx-auto">Get In Touch</h2>
+      <div className="py-10 mt-0 bg-[#e2ecf7] ">
+        <div className="mx-auto w-full ">
+          <h2 className="sm_d_h2 my-10 md:medium_header text-center mx-auto">Get In Touch</h2>
         </div>
-        <form className=" text-gray-100 w-full md:w-1/2 mx-auto">
-          <div className="mb-4 mt-2">
-            <input
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-              id="name"
-              type="text"
-              placeholder="Enter your name"
-            />
-          </div>
-          <div className="mb-4">
-            <input
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-              id="email"
-              type="email"
-              placeholder="Enter your email address"
-            />
-          </div>
-          <div className="mb-4">
-            <textarea
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-              id="message"
-              rows="4"
-              placeholder="Enter your message"
-            ></textarea>
-          </div>
-          <button className="w-full px-4 py-2 bg-[#ffcc1d] text-white font-bold rounded transition duration-300 hover:bg-[#ffcc1d] transform text-xl hover:scale-80">
-            Submit
-          </button>
-        </form>
+        <ContactForm/>
       </div>
     </div>
   );

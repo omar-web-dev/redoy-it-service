@@ -1,11 +1,14 @@
+import { FaCaretRight  } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 
 const Footer = () => {
   return (
     <footer className=" bg-[#054ada]">
-      <div className="container mx-auto py-8 max-w-[1200px] ">
-        <div className="flex gap-6 justify-between">
-          <div className="w-full  md:w-1/3  md:text-left">
+      <div className="container mx-auto py-8 px-8 max-w-[1200px] ">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 justify-between">
+          {/* *** first section */}
+          <div className="w-full  md:text-left">
             <img
               className="h-12  mb-4"
               src="https://redoyislam.com/wp-content/uploads/2021/12/redoy-1-150x59.png"
@@ -23,37 +26,49 @@ const Footer = () => {
               .
             </p>
           </div>
-          <div className="w-full px-10 md:w-1/3 text-center md:text-left">
+          {/* *** meddle section */}
+          <div className="w-full md:px-10 ">
             <h5 className="uppercase text-gray-100 font-bold mb-4">
               WordPress services
             </h5>
             <nav className="mb-4">
               <ul>
-                <li>
-                  <a className="text-gray-200 hover:text-white" href="#">
+                <li className="flex items-center text-gray-200">
+                  <FaCaretRight className="mr-3" />
+                  <Link to="/">
                     Home
-                  </a>
+                  </Link>
                 </li>
-                <li>
-                  <a className="text-gray-200 hover:text-white" href="#">
-                    About
-                  </a>
+                <li className="flex items-center text-gray-200">
+                  <FaCaretRight className="mr-3" />
+                  <Link to="/">
+                    Home
+                  </Link>
                 </li>
-                <li>
-                  <a className="text-gray-200 hover:text-white" href="#">
-                    Services
-                  </a>
+                <li className="flex items-center text-gray-200">
+                  <FaCaretRight className="mr-3" />
+                  <Link to="/">
+                    Home
+                  </Link>
                 </li>
-                <li>
-                  <a className="text-gray-200 hover:text-white" href="#">
-                    Contact
-                  </a>
+                <li className="flex items-center text-gray-200">
+                  <FaCaretRight className="mr-3" />
+                  <Link to="/">
+                    Home
+                  </Link>
+                </li>
+                <li className="flex items-center text-gray-200">
+                  <FaCaretRight className="mr-3" />
+                  <Link to="/">
+                    Home
+                  </Link>
                 </li>
               </ul>
             </nav>
           </div>
 
-          <form className="w-full md:w-1/3 text-gray-100">
+          {/* *** last section */}
+          <form className="w-full text-gray-100">
             <div>
               <p className="sm_pre_text">+88 88888 8888</p>
               <p className="sm_pre_text">yourname@host.bd</p>

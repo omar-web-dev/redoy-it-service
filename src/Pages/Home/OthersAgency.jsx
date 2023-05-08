@@ -2,13 +2,13 @@ import { FaStopCircle } from "react-icons/fa";
 
 const OthersAgency = () => {
   return (
-    <div className="mt-40">
-      <h2 className="medium_header">
+    <div className="mt-10 px-3 lg:mt-40 md::mt-15">
+      <h2 className="sm_d_h2 md:medium_header">
         Why Our WordPress SEO Service Are Better Than Others Agency ?
       </h2>
 
-      <div className="flex mt-20 gap-8">
-        <div className="w-1/2">
+      <div className="grid grid-cols-1 md:grid-cols-2 mt-20 gap-8">
+        <div className="">
           <p className="sm_pre_text mb-8">
             We’re here to solve your SEO problems and help you gain traffic,
             make more sales (and win customers!), drive website visitors into
@@ -30,8 +30,8 @@ const OthersAgency = () => {
             Google rankings lists while also ensuring visitor engagement
           </p>
         </div>
-        <div className=" rounded w-1/2">
-          <p className="sm_pre_text py-3">
+        <div className=" rounded">
+          <p className="sm_pre_text py-3 md:py-0">
             <FaStopCircle className="inline-block mr-2 text-blue-500" />
             100% safe WordPress SEO services with white hat SEO optimized for
             organic traffic.

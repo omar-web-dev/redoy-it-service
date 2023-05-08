@@ -2,13 +2,13 @@ import { FaExternalLinkAlt, FaRocket } from "react-icons/fa";
 
 const Banner = () => {
   return (
-    <div className=" h-screen bg-[#054ada]">
-      <div className="max-w-[1200px] mx-auto flex flex-col items-center pt-44 justify-center">
-        <h1 className="text-4xl font-bold header">Redoyislam</h1>
-        <h2 className="text-2xl font-medium mt-4 medium_header text-gray-50">
+    <div className="pb-4 lg:h-screen bg-[#054ada]">
+      <div className="max-w-[1200px] px-3 mx-auto flex flex-col items-center pt-32 md:pt-64 justify-center">
+        <h1 className="text-4xl font-bold sm_d_h1 md:header">Redoyislam</h1>
+        <h2 className="text-2xl font-medium mt-4 sm_d_h2 md:medium_header text-gray-50">
           Website Design And SEO Service
         </h2>
-        <p className=" my-8 text-lg text-gray-50 font-bold max-w-[75%] pre_text text-center">
+        <p className=" my-8 text-lg text-gray-50  font-bold md:max-w-[90%] lg:75 pre_text text-center">
           Redoyislam is a website design and SEO service provider. We offer
           high-quality, affordable website design and SEO services to small
           businesses and entrepreneurs. We have years of experience in the

@@ -3,9 +3,9 @@ import { FaStopCircle } from "react-icons/fa";
 const FirstChoice = () => {
   return (
     <div className="bg-[#e2ecf7] ">
-      <div className="max-w-[1200px] pt-20 mx-auto flex mt-20 gap-8 ">
-        <div className="w-1/2">
-          <h2 className="medium_header text_star mb-4">
+      <div className="max-w-[1200px] pt-7 px-3  mx-auto grid grid-cols-1 md:grid-cols-2 mt-7 md:mt-20 gap-8 ">
+        <div className="">
+          <h2 className="sm_d_h2 md:medium_header md:text-left mb-4">
             Why Should WordPress Be Your First Choice?
           </h2>
           <p className="sm_pre_text mb-8">
@@ -36,7 +36,7 @@ const FirstChoice = () => {
         </div>
 
         {/* right side */}
-        <div className=" rounded w-1/2">
+        <div className=" rounded">
           <h4 className="card_header text_star mb-4">
             Here Are Five Important Reasons To Use WordPress
           </h4>

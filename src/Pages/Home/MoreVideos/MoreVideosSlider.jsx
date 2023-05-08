@@ -39,11 +39,11 @@ export default function ClientFeedback() {
 
   return (
     <div>
-      <div className="h-[350px] bg-gray-50 rounded-lg ">
-        <Swiper className="h-full px-10" ref={swiperRef}>
+      <div className="md:h-[280px] lg:h-[380px] bg-gray-50 rounded-lg ">
+        <Swiper className="h-full px-3" ref={swiperRef}>
           <div className="swiper-wrapper">
             <SwiperSlide className="swiper-slide">
-              <div className="bg-white rounded-lg p-8 flex px-10">
+              <div className="bg-white rounded-lg pt-4 flex md:px-2 px-0">
                 <img 
                 className="w-full h-full rounded-lg"
                   src="https://redoyislam.com/wp-content/uploads/2022/01/global-translationsuk.jpg"
@@ -52,7 +52,7 @@ export default function ClientFeedback() {
               </div>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <div className="bg-white rounded-lg p-8 flex px-10">
+              <div className="bg-white rounded-lg pt-4 flex md:px-2 px-0 ">
                 <img 
                 className="w-full h-full rounded-lg"
                   src="https://redoyislam.com/wp-content/uploads/2022/01/global-translationsuk.jpg"
@@ -61,7 +61,7 @@ export default function ClientFeedback() {
               </div>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <div className="bg-white rounded-lg p-8 flex px-10">
+              <div className="bg-white rounded-lg flex pt-4 md:px-2 px-0">
                 <img 
                 className="w-full h-full rounded-lg"
                   src="https://redoyislam.com/wp-content/uploads/2022/01/global-translationsuk.jpg"
@@ -70,7 +70,7 @@ export default function ClientFeedback() {
               </div>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
-              <div className="bg-white rounded-lg p-8 flex px-10">
+              <div className="bg-white rounded-lg pt-4 flex md:px-2 px-0">
                 <img 
                 className="w-full h-full rounded-lg"
                   src="https://redoyislam.com/wp-content/uploads/2022/01/global-translationsuk.jpg"

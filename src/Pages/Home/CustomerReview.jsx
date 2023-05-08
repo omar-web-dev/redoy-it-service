@@ -3,16 +3,16 @@ import { FaStar } from "react-icons/fa";
 const CustomerReview = () => {
   const rating = 5;
   return (
-    <div className="max-w-[1200px] mx-auto">
-      <h2 className="medium_header ">Happy Customer Reviews</h2>
-      <div className="flex items-center justify-center mt-8 mb-16">
+    <div className="max-w-[1200px] md:mt-24 px-3 mx-auto">
+      <h2 className="sm_d_h2 md:medium_header">Happy Customer Reviews</h2>
+      <div className="flex items-center justify-center mt-3 mb-10">
         {Array.from({ length: rating }).map((i) => (
           <FaStar className="text-orange-500 text-3xl" key={i} />
         ))}
       </div>
 
-      <div className="flex mt-10 gap-8">
-        <div className="w-1/2">
+      <div className="grid grid-cols-1 md:grid-cols-2 mt-10 gap-8 ">
+        <div className="">
           <p className="sm_pre_text mb-8">
             “RedoyIslam” company helps you to increase your site traffic. We’ve
             assisted over 3,000 WordPress sites in their SEO strategies, which
@@ -27,9 +27,9 @@ const CustomerReview = () => {
             that will get you ranked on Google
           </p>
         </div>
-        <div className=" rounded w-1/2">
+        <div className=" rounded">
           <img
-            className="rounded-lg shadow-2xl w-full h-full"
+            className="rounded-lg shadow-2xl w-full h-full md:h-auto"
             src="https://redoyislam.com/wp-content/uploads/2021/12/Customer-satisfaction.gif"
             alt=""
           />

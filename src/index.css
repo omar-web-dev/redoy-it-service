@@ -93,22 +93,39 @@ font-family: 'Work Sans', sans-serif; */
 .swiper-slide {
   /* width: 162px !important; */
 }
-
+.sm_d_h1 {
+  font-size: 62px;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-transform: none;
+  line-height: 64px;
+  letter-spacing: 0px;
+}
 .header {
   color: #ffffff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 90px;
   font-weight: 700;
   text-transform: none;
   line-height: 0.8em;
   letter-spacing: 0px;
 }
-.medium_header, .my_h2 {
-  font-family: 'Roboto', sans-serif;
+.medium_header,
+.my_h2 {
+  font-family: "Roboto", sans-serif;
   font-size: 48px;
   font-weight: 700;
   text-transform: capitalize;
   line-height: 60px;
+  text-align: center;
+}
+.sm_d_h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 44px;
   text-align: center;
 }
 
@@ -128,20 +145,26 @@ font-family: 'Work Sans', sans-serif; */
   line-height: 30px;
 }
 
-.card_header, .my_h4 {
+.card_header,
+.my_h4 {
   font-family: "Baloo Tamma 2", Sans-serif;
   font-size: 28px;
   font-weight: 700;
   text-transform: none;
   line-height: 40px;
 }
-.swiper-button-next {
-  color: red;
+.swiper-button-next,.swiper-button-prev {
+  color: white;
   background-color: orange;
-  padding: 30px;
+  padding: 20px;
   border-radius: 50%;
-  font-size: 20px;
-  height: 20px;
+
+  height: 15px;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 20px !important;
 }
 
 .text_star {

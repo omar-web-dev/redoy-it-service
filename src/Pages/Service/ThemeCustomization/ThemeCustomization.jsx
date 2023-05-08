@@ -1,4 +1,5 @@
 import { FaExternalLinkAlt, FaRocket } from "react-icons/fa";
+import ContactForm from "../../../Components/Navbar/ContactForm";
 
 const ThemeCustomization = () => {
   return (
@@ -7,10 +8,10 @@ const ThemeCustomization = () => {
 
       <div>
         <div className="py-52 pb-32 bg-[#054ada]">
-          <h1 className="text-center header">Eduma theme customization</h1>
+          <h1 className="text-center sm_d_h2 text-white md:header">Eduma theme customization</h1>
         </div>
         <img
-          className="w-full"
+          className="w-full h-20 -mt-1 "
           src="https://i.ibb.co/tBKp0JK/Screenshot-1.png"
           alt="Screenshot-1"
           border="0"
@@ -18,8 +19,8 @@ const ThemeCustomization = () => {
       </div>
 
       {/* ************************* What Is Eedum? ********************* */}
-      <div className="max-w-[1200px] mx-auto mt-32">
-        <h2 className="medium_header mb-4">What Is Eedum?</h2>
+      <div className="max-w-[1200px] px-3 mx-auto mt-32">
+        <h2 className="sm_d_h2 md:medium_header mb-4">What Is Eedum?</h2>
         <h4 className="sm_pre_text text-center mb-20">
           Eduma is a WordPress theme that teachers can use to create courses and
           manage a Learning Management System (LMS). Teachers and students can
@@ -30,14 +31,14 @@ const ThemeCustomization = () => {
       </div>
 
       {/* ************************* Theme Customization Agency ********************* */}
-      <div className="bg-[#e2ecf7] mt-20 ">
+      <div className="bg-[#e2ecf7] px-3 mt-20 ">
         <div className="max-w-[1200px] py-20 mx-auto ">
-          <h2 className="medium_header mb-4 text-center">
+          <h2 className="sm_d_h2 md:medium_header mb-4 text-center">
             Why Should Choose Redoy islam As Your Edema Theme Customization
             Agency
           </h2>
-          <div className="flex mt-20  gap-8 ">
-            <div className="w-2/3">
+          <div className="grid lg:flex lg:flex-cols-2 mt-20  gap-8 ">
+            <div className="lg:w-2/3">
               <div>
                 <p className="sm_pre_text mb-4 -mt-8 text-justify">
                   SEO stands for search engine optimization. With our process,
@@ -94,7 +95,7 @@ const ThemeCustomization = () => {
             </div>
 
             {/* right side */}
-            <div className="  w-1/3">
+            <div className="lg:w-1/3">
               <div className="bg-white">
                 <img
                   className="-mt-6 w-full cover mx-auto"
@@ -120,8 +121,8 @@ const ThemeCustomization = () => {
         </div>
       </div>
       {/* ************************* What Is Eedum? ********************* */}
-      <div className="max-w-[1200px] mx-auto mt-32">
-        <h2 className="medium_header mb-4">
+      <div className="max-w-[1200px] mx-auto mt-20 lg:mt-32 px-3">
+        <h2 className="sm_d_h2 md:medium_header mb-4">
           Why Should You Hire An Educational Website Design Company
         </h2>
         <p className="sm_pre_text text-center mb-2">
@@ -157,35 +158,7 @@ const ThemeCustomization = () => {
         <div className="mx-auto w-full md:w-1/2">
           <h2 className="medium_header text-center mx-auto">Get In Touch</h2>
         </div>
-        <form className=" text-gray-100 w-full md:w-1/2 mx-auto">
-          <div className="mb-4 mt-2">
-            <input
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-              id="name"
-              type="text"
-              placeholder="Enter your name"
-            />
-          </div>
-          <div className="mb-4">
-            <input
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-              id="email"
-              type="email"
-              placeholder="Enter your email address"
-            />
-          </div>
-          <div className="mb-4">
-            <textarea
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-              id="message"
-              rows="4"
-              placeholder="Enter your message"
-            ></textarea>
-          </div>
-          <button className="w-full px-4 py-2 bg-[#ffcc1d] text-white font-bold rounded transition duration-300 hover:bg-[#ffcc1d] transform text-xl hover:scale-80">
-            Submit
-          </button>
-        </form>
+        <ContactForm/>
       </div>
     </div>
   );

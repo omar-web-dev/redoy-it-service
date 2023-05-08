@@ -3,9 +3,9 @@ import ServiceCards from "./ServiceCards";
 
 const SEOService = () => {
   return (
-    <div className="mt-40">
+    <div className="lg:mt-40">
       <h2 className="medium_header mb-10">Our Affordable SEO Service</h2>
-      <p className="sm_pre_text text-center ">
+      <p className="px-3 sm_pre_text text-center ">
         We have been providing premium quality SEO services for over
         four years. We have done more than 3,000+ projects and are always ranked
         at the top position in Google search results. We deliver world-class SEO
@@ -18,7 +18,7 @@ const SEOService = () => {
         </span>
         WordPress SEO Service
       </p>
-      <div className="grid grid-cols-3 gap-8 mt-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-3 gap-8 mt-10">
       <ServiceCards></ServiceCards>
       <ServiceCards></ServiceCards>
       <ServiceCards></ServiceCards>
