@@ -33,8 +33,7 @@ const OthersAgency = () => {
         <div className=" rounded">
           <p className="sm_pre_text py-3 md:py-0">
             <FaStopCircle className="inline-block mr-2 text-blue-500" />
-            100% safe WordPress SEO services with white hat SEO optimized for
-            organic traffic.
+            We’ll help you increase your site’s visibility through organic search results.
           </p>
           <p className="sm_pre_text  py-3">
             <FaStopCircle className="inline-block mr-2 text-blue-500" />

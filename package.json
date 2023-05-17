@@ -19,7 +19,8 @@
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.11.0",
     "react-slick": "^0.29.0",
-    "swiper": "^9.2.4"
+    "swiper": "^9.2.4",
+    "whatsapp-chat-widget": "^1.0.4"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",

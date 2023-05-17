@@ -6,7 +6,7 @@ const Contact = () => {
       {/* ************************* Header ********************* */}
 
       <div>
-        <div className="py-52 pb-32 bg-[#054ada]">
+        <div className="py-52 h-32 pb-32 bg-[#054ada]">
           <h1 className="text-center sm_d_h1 md:header">Contact</h1>
         </div>
         <img
@@ -17,7 +17,7 @@ const Contact = () => {
         />
       </div>
       {/* ************************* Get In Touch ********************* */}
-      <div className="mb-4">
+      <div className="mb-4 lg:my-32">
       <ContactForm/>
       </div>
     </div>

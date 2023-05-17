@@ -9,27 +9,21 @@ const FirstChoice = () => {
             Why Should WordPress Be Your First Choice?
           </h2>
           <p className="sm_pre_text mb-8">
-            We’re here to solve your SEO problems and help you gain traffic,
-            make more sales (and win customers!), drive website visitors into
-            leads or conversions with our digital marketing services.
+            WordPress is a great choice for anyone who wants to share their
+            ideas with the world. It features an extensive collection of
+            plugins, themes and tools that help you build your website from
+            scratch or customize one already in existence! Millions use
+            WordPress every day – it’s safe bet when looking into how best
+            handle site management online today
           </p>
           <p className="sm_pre_text">
-            We care deeply about website building, responsiveness and full SEO
-            optimization. We help you to grow your site successfully in search
-            engines by providing a customized solution for each client that
-            meets their unique needs which is why we’re here! You don’t need an
-            expert on this topic because our team works with every single
-            customer individually so they can get maximum results from the work
-            together – no matter what kind of problem arises along the way
-            (we’ve got solutions).
-          </p>
-          <p className="sm_pre_text">
-            Don’t hesitate; call today if want quality service at competitive
-            prices when it comes down towards getting ranked high-up within
-            Google rankings lists while also ensuring visitor engagement
+            It has become so popular because this software offers everything
+            needed: ease-of access via mobile devices as well desktops; powerful
+            feature set allowing developers maximum control over content
+            creation possibilities redoyislam
           </p>
           <img
-          className="-mt-6 cover mx-auto"
+            className="-mt-6 cover mx-auto"
             src="https://redoyislam.com/wp-content/uploads/2022/01/wordpress-seo-services.png"
             alt=""
           />
@@ -42,56 +36,35 @@ const FirstChoice = () => {
           </h4>
           <p className="sm_pre_text py-3">
             <FaStopCircle className="inline-block mr-2 text-blue-500" />
-            100% safe WordPress SEO services with white hat SEO optimized for
-            organic traffic.
+            WordPress is a flexible and easy-to-use content management system.
           </p>
           <p className="sm_pre_text  py-3">
             <FaStopCircle className="inline-block mr-2 text-blue-500" />
-            100% safe WordPress SEO services with white hat SEO optimized for
-            organic traffic.
+            WordPress is easy to use for beginners in website design.
+            Unfortunately, too many excellent technologies are out of reach for
+            complete beginners. Because WordPress is not too complicated, it
+            makes a great starting point to use at home or in your small
+            business right away.
           </p>
           <p className="sm_pre_text  py-3">
             <FaStopCircle className="inline-block mr-2 text-blue-500" />
-            100% safe WordPress SEO services with white hat SEO optimized for
-            organic traffic.
+            WordPress offers thousands of free plugins. In addition, wordPress
+            comes with hundreds of helpful extras, so you can augment the
+            default website right away and save yourself a lot of o money in the
+            long run as your business grows.
           </p>
           <p className="sm_pre_text  py-3">
             <FaStopCircle className="inline-block mr-2 text-blue-500" />
-            100% safe WordPress SEO services with white hat SEO optimized for
-            organic traffic.
+            WordPress is used by millions of users and has a high reputation for
+            security.
           </p>
           <p className="sm_pre_text  py-3">
             <FaStopCircle className="inline-block mr-2 text-blue-500" />
-            100% safe WordPress SEO services with white hat SEO optimized for
-            organic traffic.
+            WordPress makes it easy to manage changes in multiple templates or
+            add style sheets easily across pages without having to edit HTML
+            code after every change.
           </p>
-          <p className="sm_pre_text  py-3">
-            <FaStopCircle className="inline-block mr-2 text-blue-500" />
-            100% safe WordPress SEO services with white hat SEO optimized for
-            organic traffic.
-          </p>
-          <p className="sm_pre_text  py-3">
-            <FaStopCircle className="inline-block mr-2 text-blue-500" />
-            100% safe WordPress SEO services with white hat SEO optimized for
-            organic traffic.
-          </p>
-          <p className="sm_pre_text  py-3">
-            <FaStopCircle className="inline-block mr-2 text-blue-500" />
-            100% safe WordPress SEO services with white hat SEO optimized for
-            organic traffic.
-          </p>
-          <p className="sm_pre_text  py-3">
-            <FaStopCircle className="inline-block mr-2 text-blue-500" />
-            We take care of everything from installing plugins to customizing
-            themes, setting up email marketing campaigns, managing social media
-            accounts, creating SEO optimized content, On-page SEO, off-page SEO,
-            Backlinks, etc.
-          </p>
-          <p className="sm_pre_text py-3">
-            <FaStopCircle className="inline-block mr-2 text-blue-500" />
-            We have 700+ clients WordPress SEO Optimization, Web design,
-            eCommerce SEO Optimization, Marketing strategy, case studies.
-          </p>
+
         </div>
       </div>
     </div>

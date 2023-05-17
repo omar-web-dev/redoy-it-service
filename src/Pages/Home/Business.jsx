@@ -1,4 +1,5 @@
 import { FaRocket } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Business = () => {
   return (
@@ -12,12 +13,12 @@ const Business = () => {
         clients!
       </p>
       <div className="flex justify-center py-10 md:mt-4 ">
-        <div className="px-2 py-2 text-center  bg-[#f1db80]  rounded-full transition duration-300 hover:bg-[#ffcc1d] transform hover:scale-110 ">
+        <Link to='contact' className="px-2 py-2 text-center  bg-[#f1db80]  rounded-full transition duration-300 hover:bg-[#ffcc1d] transform hover:scale-110 ">
           <button className="flex justify-center items-center px-4 py-2 bg-[#FFCC1D] text-black font-bold rounded-full transition duration-300 hover:bg-[#ffcc1d] transform text-xl  hover:scale-80">
             <FaRocket className="mr-2 text-xl" />
             GET FREE CONSULTANT
           </button>
-        </div>
+        </Link>
       </div>
       <div className="lg:flex hidden mt-28 justify-end pr-32 bg-[#054ada]">
         <img

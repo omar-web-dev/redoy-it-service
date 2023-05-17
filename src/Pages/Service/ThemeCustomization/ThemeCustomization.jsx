@@ -1,5 +1,6 @@
-import { FaExternalLinkAlt, FaRocket } from "react-icons/fa";
+import { FaRocket } from "react-icons/fa";
 import ContactForm from "../../../Components/Navbar/ContactForm";
+import { Link } from "react-router-dom";
 
 const ThemeCustomization = () => {
   return (
@@ -8,7 +9,9 @@ const ThemeCustomization = () => {
 
       <div>
         <div className="py-52 pb-32 bg-[#054ada]">
-          <h1 className="text-center sm_d_h2 text-white md:header">Eduma theme customization</h1>
+          <h1 className="text-center sm_d_h2 text-white md:header">
+            Eduma theme customization
+          </h1>
         </div>
         <img
           className="w-full h-20 -mt-1 "
@@ -41,55 +44,57 @@ const ThemeCustomization = () => {
             <div className="lg:w-2/3">
               <div>
                 <p className="sm_pre_text mb-4 -mt-8 text-justify">
-                  SEO stands for search engine optimization. With our process,
-                  your WordPress website will get a high ranking on Google,
-                  Bing, and Yahoo! Search engines like these want people to find
-                  their websites quickly and easily, so they rank sites based on
-                  how useful or relevant that site is. If your website is not
-                  optimized correctly, it will either be hard to find online or
-                  won’t show up.
+                  If you’re looking to build a professional word press online
+                  course-selling website to make money. You have found the right
+                  eLearning, LMS website design agency.
                 </p>
                 <p className="sm_pre_text text-justify">
-                  Our Service ensures that you get traffic from your WordPress
-                  blog by increasing visibility through proper keywords, meta
-                  description, internal linking structure, and external links.
-                  We also provide services such as XML sitemaps that allow users
-                  who use assistive technology to better access your website.
+                  You can easily edit your LMS website even if you are not an
+                  -It person. We provide a full video tutorial after completing
+                  your website design and development. which will help you
+                  manage your website.{" "}
+                  <span className="font-bold ">
+                    Our company offers 24/7 support with 100% satisfaction.
+                  </span>
                 </p>
                 <p className="sm_pre_text mt-4 text-justify">
-                  SEO service is important because it makes sure that your
-                  website appears as close to the top of a search engine as
-                  possible. This means more traffic for you and your business!
-                  It can help increase leads, conversions, and sales by making
-                  your website work better on the internet. Don’t miss out on
-                  this valuable opportunity –{" "}
-                  <span className="text-[#054ada] mx-2 cursor-pointer">
-                    <FaExternalLinkAlt className="w-20px inline-block mr-1" />
-                    contact us.
-                  </span>
-                  . Today for a free
-                  <span className="text-[#054ada] mx-2 cursor-pointer">
-                    <FaExternalLinkAlt className="w-20px inline-block mr-1" />
-                    consultation
-                  </span>
-                  !
+                  We will create a WordPress educational website by Edema theme,
+                  and it has a smooth and user-friendly interface that makes it
+                  easy to create your courses.
                 </p>
               </div>
               <div>
                 <h4 className="my_h4 mt-8">Edema Theme Customization List:</h4>
                 <ul className="pl-10 list-disc">
                   <li className="sm_pre_text my-2">
-                    Better rankings on SERPs (search engines) leads more
-                    potential customers to find their way back to our websites
+                    The latest Eduma Theme with relevant Plugins install
                   </li>
                   <li className="sm_pre_text my-2">
-                    More website traffic as WordPress SEO service targets the
-                    right audience with the right content
+                    Copy, Clone Any Design by Eduma theme, Elementor Pro
                   </li>
                   <li className="sm_pre_text my-2">
-                    Improved brand awareness and reach as WordPress SEO Service
-                    can help get your site in front of new audiences
+                    SEO -Friendly, 100% Dynamic Responsive Design.
                   </li>
+                  <li className="sm_pre_text my-2">Eduma Child theme create</li>
+                  <li className="sm_pre_text my-2">
+                    Redesign your education site or new site.
+                  </li>
+                  <li className="sm_pre_text my-2">
+                    E-commerce Functionality with woo commerce setup
+                  </li>
+                  <li className="sm_pre_text my-2">
+                    Super clean design with a modern look.
+                  </li>
+                  <li className="sm_pre_text my-2">
+                    The lesson, quizzes, certificates setup
+                  </li>
+                  <li className="sm_pre_text my-2">
+                    Custom design using CSS, js, Php
+                  </li>
+                  <li className="sm_pre_text my-2">
+                    Determine page design will be based on your requirement.
+                  </li>
+                  <li className="sm_pre_text my-2">Eduma errors fix</li>
                 </ul>
               </div>
             </div>
@@ -97,23 +102,28 @@ const ThemeCustomization = () => {
             {/* right side */}
             <div className="lg:w-1/3">
               <div className="bg-white">
-                <img
-                  className="-mt-6 w-full cover mx-auto"
-                  src="https://redoyislam.com/wp-content/uploads/2022/11/customize-lms-or-membership-website-eduma-theme-with-eduma-theme.webp"
-                  alt=""
-                />
+                <Link to="https://www.fiverr.com/redoyisalm/customize-lms-or-membership-website-eduma-theme-with-eduma-theme?utm_campaign=gigs_show&utm_medium=shared&utm_source=copy_link&utm_term=povwae">
+                  <img
+                    className="-mt-6 w-full cover mx-auto"
+                    src="https://redoyislam.com/wp-content/uploads/2022/11/customize-lms-or-membership-website-eduma-theme-with-eduma-theme.webp"
+                    alt=""
+                  />
+                </Link>
                 <p className="py-10  px-6">
                   I will create your wordpress online course website by eduma
                   theme SEND ME A PROPOSAL
                 </p>
                 <hr />
                 <div className="flex justify-center py-10">
-                  <div className="px-2 py-2 text-center  bg-[#f1db80]  rounded-full transition duration-300 hover:bg-[#ffcc1d] transform hover:scale-110 ">
+                  <Link
+                    to="https://www.fiverr.com/redoyisalm/customize-lms-or-membership-website-eduma-theme-with-eduma-theme?utm_campaign=gigs_show&utm_medium=shared&utm_source=copy_link&utm_term=povwae"
+                    className="px-2 py-2 text-center  bg-[#f1db80]  rounded-full transition duration-300 hover:bg-[#ffcc1d] transform hover:scale-110 "
+                  >
                     <button className="flex justify-center uppercase items-center px-4 py-2 bg-[#FFCC1D] text-black font-bold rounded-full transition duration-300 hover:bg-[#ffcc1d] transform text-xl  hover:scale-80">
                       <FaRocket className="mr-2 text-xl " />
                       Send me a proposal
                     </button>
-                  </div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -140,16 +150,21 @@ const ThemeCustomization = () => {
           900+ education websites in the last five years. Every one of our
           clients is 100% satisfied with our delivery.
         </p>
-        <p className="sm_pre_text text-center  hover:text-yellow-500 hover:cursor-pointer">
-          If you want, you can check our client’s reviews.
-        </p>
+        <Link to="https://www.fiverr.com/redoyisalm/customize-lms-or-membership-website-eduma-theme-with-eduma-theme?utm_campaign=gigs_show&utm_medium=shared&utm_source=copy_link&utm_term=povwae">
+          <p className="sm_pre_text text-center text-blue-500 hover:text-yellow-500 hover:cursor-pointer">
+            If you want, you can check our client’s reviews.
+          </p>
+        </Link>
         <div className="flex justify-center py-10">
-          <div className="px-2 py-2 text-center  bg-[#f1db80]  rounded-full transition duration-300 hover:bg-[#ffcc1d] transform hover:scale-110 ">
+          <Link
+            to="https://www.fiverr.com/redoyisalm/customize-lms-or-membership-website-eduma-theme-with-eduma-theme?utm_campaign=gigs_show&utm_medium=shared&utm_source=copy_link&utm_term=povwae"
+            className="px-2 py-2 text-center  bg-[#f1db80]  rounded-full transition duration-300 hover:bg-[#ffcc1d] transform hover:scale-110 "
+          >
             <button className="flex justify-center uppercase items-center px-4 py-2 bg-[#FFCC1D] text-black font-bold rounded-full transition duration-300 hover:bg-[#ffcc1d] transform text-xl  hover:scale-80">
               <FaRocket className="mr-2 text-xl " />
               Send me a proposal
             </button>
-          </div>
+          </Link>
         </div>
       </div>
 
@@ -158,7 +173,7 @@ const ThemeCustomization = () => {
         <div className="mx-auto w-full md:w-1/2">
           <h2 className="medium_header text-center mx-auto">Get In Touch</h2>
         </div>
-        <ContactForm/>
+        <ContactForm />
       </div>
     </div>
   );

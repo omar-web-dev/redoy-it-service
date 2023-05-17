@@ -7,13 +7,13 @@ import "swiper/css/bundle";
 SwiperCore.use([Navigation]);
 
 export default function ClientFeedback() {
-  const swiperRef = useRef(null);
+  const swiperRefDes = useRef(null);
 
 
   useEffect(() => {
     const swiper = new SwiperCore(".swiper", {
       slidesPerView: 2,
-      direction: getDirection(1),
+      // direction: getDirection(1),
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -24,23 +24,23 @@ export default function ClientFeedback() {
       },
       on: {
         resize: function () {
-          swiper.changeDirection(getDirection(1));
+          swiper.changeDirection();
         },
       },
     });
 
-    function getDirection() {
-      const windowWidth = window.innerWidth;
-      const direction = windowWidth <= 760 ? "vertical" : "horizontal";
+    // function getDirection() {
+    //   const windowWidth = window.innerWidth;
+    //   const direction = windowWidth <= 760 ? "vertical" : "horizontal";
 
-      return direction;
-    }
+    //   return direction;
+    // }
   }, []);
 
   return (
     <div>
       <div className="md:h-[280px] lg:h-[380px] bg-gray-50 rounded-lg ">
-        <Swiper className="h-full px-3" ref={swiperRef}>
+        <Swiper className="h-full px-3" ref={swiperRefDes}>
           <div className="swiper-wrapper">
             <SwiperSlide className="swiper-slide">
               <div className="bg-white rounded-lg pt-4 flex md:px-2 px-0">

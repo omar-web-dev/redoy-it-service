@@ -1,4 +1,5 @@
 import { FaExternalLinkAlt, FaRocket } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -15,18 +16,18 @@ const Banner = () => {
           website design and SEO industry, and we’re passionate about helping
           our clients grow their businesses online. If you need a reliable,
           affordable website design and SEO service,
-          <span className="text-[#ffcc1d] mx-2 cursor-pointer">
+          <Link to='../../contact' className="text-[#ffcc1d] mx-2 cursor-pointer">
             <FaExternalLinkAlt className="w-20px inline-block mr-1" />
             contact us.
-          </span>
+          </Link>
           We would be happy to help you get started online!
         </p>
-        <p className="px-2 py-2 bg-[#8e9172]  rounded-full transition duration-300 hover:bg-[#ffcc1d] transform hover:scale-110 ">
+        <Link to='../../contact' className="px-2 py-2 bg-[#8e9172]  rounded-full transition duration-300 hover:bg-[#ffcc1d] transform hover:scale-110 ">
           <button className="flex justify-center items-center px-4 py-2 bg-[#ffcc1d] text-black font-bold rounded-full transition duration-300 hover:bg-[#ffcc1d] transform text-xl  hover:scale-80">
             <FaRocket className="mr-2 text-xl" />
             FREE SEO AUDIT
           </button>
-        </p>
+        </Link>
       </div>
     </div>
   );

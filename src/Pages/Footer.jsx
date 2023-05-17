@@ -1,8 +1,9 @@
-import { FaCaretRight  } from "react-icons/fa";
+import { FaCaretRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
-
+import SocialIcons from "../Components/SocialIcons/SocialIcons";
 
 const Footer = () => {
+
   return (
     <footer className=" bg-[#054ada]">
       <div className="container mx-auto py-8 px-8 max-w-[1200px] ">
@@ -25,6 +26,7 @@ const Footer = () => {
               clients coming back again or new business ventures starting up too
               .
             </p>
+            <SocialIcons />
           </div>
           {/* *** meddle section */}
           <div className="w-full md:px-10 ">
@@ -35,32 +37,26 @@ const Footer = () => {
               <ul>
                 <li className="flex items-center text-gray-200">
                   <FaCaretRight className="mr-3" />
-                  <Link to="/">
-                    Home
+                  <Link to="/wordpress-seo-service" target="_blank">
+                    Wordpress seo service
                   </Link>
                 </li>
                 <li className="flex items-center text-gray-200">
                   <FaCaretRight className="mr-3" />
-                  <Link to="/">
-                    Home
+                  <Link to="/eduma-theme-customization" target="_blank">
+                    Education website design
                   </Link>
                 </li>
                 <li className="flex items-center text-gray-200">
                   <FaCaretRight className="mr-3" />
-                  <Link to="/">
-                    Home
+                  <Link to="/portfolio" target="_blank">
+                    Portfolio
                   </Link>
                 </li>
                 <li className="flex items-center text-gray-200">
                   <FaCaretRight className="mr-3" />
-                  <Link to="/">
-                    Home
-                  </Link>
-                </li>
-                <li className="flex items-center text-gray-200">
-                  <FaCaretRight className="mr-3" />
-                  <Link to="/">
-                    Home
+                  <Link to="/contact" target="_blank">
+                    Contact
                   </Link>
                 </li>
               </ul>
@@ -70,8 +66,8 @@ const Footer = () => {
           {/* *** last section */}
           <form className="w-full text-gray-100">
             <div>
-              <p className="sm_pre_text">+88 88888 8888</p>
-              <p className="sm_pre_text">yourname@host.bd</p>
+              <p className="sm_pre_text">+880 1763-050964</p>
+              <p className="sm_pre_text">info@redoyislam.com</p>
             </div>
             <div className="mb-4 mt-2">
               <input
