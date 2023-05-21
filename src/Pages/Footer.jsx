@@ -4,7 +4,6 @@ import { useForm } from "react-hook-form";
 import SocialIcons from "../Components/SocialIcons/SocialIcons";
 import { API_URL } from "../Components/API_URL";
 import { useEffect, useState } from "react";
-import GoogleAccountCheck from "../Components/EmailCeck";
 
 const Footer = () => {
   const {
@@ -163,7 +162,6 @@ const Footer = () => {
               </button>
             </p>
           </form>
-          <GoogleAccountCheck email={"qteam9035@gmail.com"}></GoogleAccountCheck>
         </div>
       </div>
     </footer>
