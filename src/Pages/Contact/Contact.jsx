@@ -1,6 +1,9 @@
 import ContactForm from "../../Components/Navbar/ContactForm";
 
+
 const Contact = () => {
+
+  
   return (
     <div>
       {/* ************************* Header ********************* */}

@@ -102,7 +102,7 @@ const ThemeCustomization = () => {
             {/* right side */}
             <div className="lg:w-1/3">
               <div className="bg-white">
-                <Link to="https://www.fiverr.com/redoyisalm/customize-lms-or-membership-website-eduma-theme-with-eduma-theme?utm_campaign=gigs_show&utm_medium=shared&utm_source=copy_link&utm_term=povwae">
+                <Link  target="_blank" to="https://www.fiverr.com/redoyisalm/customize-lms-or-membership-website-eduma-theme-with-eduma-theme?utm_campaign=gigs_show&utm_medium=shared&utm_source=copy_link&utm_term=povwae">
                   <img
                     className="-mt-6 w-full cover mx-auto"
                     src="https://redoyislam.com/wp-content/uploads/2022/11/customize-lms-or-membership-website-eduma-theme-with-eduma-theme.webp"
@@ -115,7 +115,7 @@ const ThemeCustomization = () => {
                 </p>
                 <hr />
                 <div className="flex justify-center py-10">
-                  <Link
+                  <Link target="_blank"
                     to="https://www.fiverr.com/redoyisalm/customize-lms-or-membership-website-eduma-theme-with-eduma-theme?utm_campaign=gigs_show&utm_medium=shared&utm_source=copy_link&utm_term=povwae"
                     className="px-2 py-2 text-center  bg-[#f1db80]  rounded-full transition duration-300 hover:bg-[#ffcc1d] transform hover:scale-110 "
                   >
@@ -150,13 +150,17 @@ const ThemeCustomization = () => {
           900+ education websites in the last five years. Every one of our
           clients is 100% satisfied with our delivery.
         </p>
-        <Link to="https://www.fiverr.com/redoyisalm/customize-lms-or-membership-website-eduma-theme-with-eduma-theme?utm_campaign=gigs_show&utm_medium=shared&utm_source=copy_link&utm_term=povwae">
+        <Link
+          target="_blank"
+          to="https://www.fiverr.com/redoyisalm/customize-lms-or-membership-website-eduma-theme-with-eduma-theme?utm_campaign=gigs_show&utm_medium=shared&utm_source=copy_link&utm_term=povwae"
+        >
           <p className="sm_pre_text text-center text-blue-500 hover:text-yellow-500 hover:cursor-pointer">
             If you want, you can check our client’s reviews.
           </p>
         </Link>
         <div className="flex justify-center py-10">
           <Link
+            target="_blank"
             to="https://www.fiverr.com/redoyisalm/customize-lms-or-membership-website-eduma-theme-with-eduma-theme?utm_campaign=gigs_show&utm_medium=shared&utm_source=copy_link&utm_term=povwae"
             className="px-2 py-2 text-center  bg-[#f1db80]  rounded-full transition duration-300 hover:bg-[#ffcc1d] transform hover:scale-110 "
           >

@@ -11,30 +11,14 @@ export default function ClientFeedback() {
 
 
   useEffect(() => {
-    const swiper = new SwiperCore(".swiper", {
+    new SwiperCore(".swiper", {
       slidesPerView: 2,
-      // direction: getDirection(1),
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
-      },
-      on: {
-        resize: function () {
-          swiper.changeDirection();
-        },
-      },
+      }
     });
 
-    // function getDirection() {
-    //   const windowWidth = window.innerWidth;
-    //   const direction = windowWidth <= 760 ? "vertical" : "horizontal";
-
-    //   return direction;
-    // }
   }, []);
 
   return (
