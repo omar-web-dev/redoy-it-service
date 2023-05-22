@@ -47,14 +47,14 @@ font-family: 'Work Sans', sans-serif; */
   position: absolute !important;
   transition: 0.5s linear;
   top: 0 !important;
-  box-shadow: 0px -5px 5px -5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px -5px 5px -5px rgba(184, 71, 71, 0.5);
 }
 .navbar-bg {
   position: fixed !important;
   top: 0px !important;
   z-index: 9999 !important;
   transition: 0.3s linear;
-  background: rgba(6, 60, 239, 0.524);
+  background: rgba(20, 97, 86, 0.524);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(3.7px);
   -webkit-backdrop-filter: blur(3.7px);

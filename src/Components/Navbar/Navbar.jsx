@@ -27,13 +27,11 @@ const Navbar = () => {
     { name: "lets Talk", link: "contact" },
   ];
 
-  
-
   return (
     <>
       <div className="">
         <nav
-          className={`bg-[#054ada] z-50 w-full px-3 lg:relative ${
+          className={`bg-[#00b894] z-50 w-full px-3 lg:relative ${
             scrollPosition > 0 ? "navbar-bg" : "primary-navbar"
           }`}
         >
@@ -42,9 +40,10 @@ const Navbar = () => {
             <div className="flex justify-between items-center">
               {/* Logo Here */}
               <div className="flex items-center">
-                <img
-                  src="https://redoyislam.com/wp-content/uploads/2021/12/redoy-1-150x59.png"
+                <img className="w-28"
+                  src="https://i.ibb.co/fvTLwxT/logo.png"
                   alt="logo"
+                  border="0"
                 />
               </div>
 

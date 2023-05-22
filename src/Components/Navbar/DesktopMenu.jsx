@@ -1,23 +1,7 @@
-import { FaPhoneVolume } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 function DesktopMenu() {
-  // console.log(navItems);
-  // const { navItems } = navItems;
-
-  // const navLinks = navItems.map((item) => {
-  //   if (Array.isArray(item)) {
-  //     const subMenu = item.map(
-  //       (subItem) => `<Link to="${subItem.link}">${subItem.name}</Link>`
-  //     );
-  //     return `<li class="dropdown">${subMenu}</li>`;
-  //   } else {
-  //     return `<li><Link to="${item.link}">${item.name}</Link></li>`;
-  //   }
-  // });
-  // // Output the result as a list of links
-  // const navList = `<ul>${navLinks}</ul>`;
-  // console.log(navList)
+  
   return (
     <div className="lg:block hidden">
       {/************************ desktop menu start here *************************/}
@@ -77,9 +61,9 @@ function DesktopMenu() {
         <li className="relative">
           <Link
             className="flex items-center uppercase text-[15px] font-Inter font-bold"
-            to={"/portfolio"}
+            to={"/about-us"}
           >
-            Portfolio
+            About us
           </Link>
         </li>
         <li className="relative">
@@ -90,12 +74,7 @@ function DesktopMenu() {
             Contact
           </Link>
         </li>
-        <p className="px-2 py-2 bg-[#8e9172]  rounded-full  ">
-          <button className="flex justify-center items-center px-4 py-2 bg-[#ffcc1d] text-black font-bold rounded-full">
-            <FaPhoneVolume />
-            LETS TALK
-          </button>
-        </p>
+        
       </ul>
 
       {/************************ desktop menu end here *************************/}

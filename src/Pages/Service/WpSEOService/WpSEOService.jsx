@@ -1,5 +1,5 @@
 import { FaChartLine, FaExternalLinkAlt, FaRocket } from "react-icons/fa";
-import ContactForm from "../../../Components/Navbar/ContactForm";
+import ContactForm from "../../../Components/ContactForm";
 import { Link } from "react-router-dom";
 
 const WpSEOService = () => {

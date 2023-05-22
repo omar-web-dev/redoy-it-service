@@ -12,6 +12,8 @@ import AddReview from "../Dashboard/AddReview";
 import Mail from "../Dashboard/Mail";
 import AddPortfolio from "../Dashboard/AddPortfolio";
 import GoogleAccountCheck from "../Components/EmailCeck";
+import AboutUs from "../Pages/aboutUs/AboutUs";
+import Popup from "../Components/Popup/Popup";
 
 
 const routes = createBrowserRouter([
@@ -42,6 +44,14 @@ const routes = createBrowserRouter([
       {
         path: "/google-account-check",
         element: <GoogleAccountCheck/>,
+      },
+      {
+        path: "/about-us",
+        element: <AboutUs/>,
+      },
+      {
+        path: "/popup",
+        element: <Popup/>,
       },
     ],
   },

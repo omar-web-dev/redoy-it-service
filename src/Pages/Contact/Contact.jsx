@@ -1,4 +1,4 @@
-import ContactForm from "../../Components/Navbar/ContactForm";
+import ContactForm from "../../Components/ContactForm";
 
 
 const Contact = () => {
