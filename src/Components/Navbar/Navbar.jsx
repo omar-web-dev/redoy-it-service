@@ -27,11 +27,13 @@ const Navbar = () => {
     { name: "lets Talk", link: "contact" },
   ];
 
+  
+
   return (
     <>
       <div className="">
         <nav
-          className={`bg-[#00b894] z-50 w-full px-3 lg:relative ${
+          className={`bg-[#054ada] z-50 w-full px-3 lg:relative ${
             scrollPosition > 0 ? "navbar-bg" : "primary-navbar"
           }`}
         >
@@ -40,10 +42,10 @@ const Navbar = () => {
             <div className="flex justify-between items-center">
               {/* Logo Here */}
               <div className="flex items-center">
-                <img className="w-28"
+                <img
+                className="w-36"
                   src="https://i.ibb.co/fvTLwxT/logo.png"
                   alt="logo"
-                  border="0"
                 />
               </div>
 

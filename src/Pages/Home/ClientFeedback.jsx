@@ -43,8 +43,8 @@ export default function ClientFeedback() {
   }, []);
 
   return (
-    <div className="-mt-44  w-[100%] ">
-      <div className="bg-[#00b894] pt-60 rounded-[100%] pb-20 rounded-se-none rounded-ss-none">
+    <div className="-mt-60  w-[100%] ">
+      <div className="bg-[#054ada] pt-60 rounded-[100%] pb-20 rounded-se-none rounded-ss-none">
         <div className="h-[230px] md:h-[160px] rounded-lg w-[90%] md:w-[75%] lg:max-w-[650px] mx-auto">
           <Swiper className="h-full swiper-wrapper relative" ref={swiperRef1}>
             {loading ? (
