@@ -33,11 +33,11 @@ const Navbar = () => {
     <>
       <div className="">
         <nav
-          className={`bg-[#054ada] z-50 w-full px-3 lg:relative ${
+          className={`z-50 w-full px-3 lg:relative ${
             scrollPosition > 0 ? "navbar-bg" : "primary-navbar"
           }`}
         >
-          <div className="max-w-[1200px] font-Cuprum py-3  text-white mx-auto">
+          <div className="max-w-[1200px] font-Cuprum py-3  text-black mx-auto">
             {sidebar && <DesktopSidebar setSidebar={setSidebar} />}
             <div className="flex justify-between items-center">
               {/* Logo Here */}
